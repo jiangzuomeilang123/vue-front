@@ -1,7 +1,7 @@
 <template>
   <div>
     <ul>
-      <li v-for="item in list" :key="item.id">{{item.id}}:{{item.name}}abc</li>
+      <li v-for="item in list" :key="item.id">abc{item.id}}:{{item.name}}</li>
     </ul>
 
     <el-form
