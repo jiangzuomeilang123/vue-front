@@ -52,10 +52,10 @@ export default {
     }
   },
   mounted() {
-    axios.get('/api/list').then(response => {
+    axios.get('http://222.73.230.176:5555/api/list').then(response => {
       this.list = response.data || []
     })
-    axios.get('/api/test').then(response => {
+    axios.get('http://222.73.230.176:5555/api/test').then(response => {
       this.formData = response.data || []
     })
   }
